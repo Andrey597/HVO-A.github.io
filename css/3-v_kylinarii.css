@@ -1,0 +1,172 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+a {
+    color: #242e31;
+    text-decoration: none;
+    font-weight: 600;
+   }
+
+
+.wrapper{
+	max-width: 1380px;
+	margin: 0px auto;
+	background: #fff;
+}
+
+
+
+.block5_{
+	max-width: 1380px;
+	margin: 0px auto;
+	height: 2100px;
+}
+
+.block5_row{
+	display: grid;
+	grid-template-columns: 10% 30fr 10%;
+}
+
+.block5_imageleft{
+
+}
+.block5_imagefon{
+	margin: 350px 0 0 0;
+}
+
+.block5_imagefon img{
+
+}
+
+.block5_imagefon2{
+	margin: 350px 0 0 0;
+	height: 10px;
+}
+.block5_cntr{
+	margin: 82px 74px 37px 74px;
+}
+
+.block5_cntr_Y1{
+	display: flex;
+	justify-content: space-between;
+}
+
+.block5_cntr_top_text{
+	font-family: Roboto;
+	font-size: 36px;
+	letter-spacing: -0.72px;
+	text-transform: uppercase;
+	height: 122px;
+	max-width: 413px;
+}
+.block5_cntr_top_button{
+	border: 1px solid #000;
+	font-family: PT Sans;
+	font-size: 18px;
+	letter-spacing: -0.36px;
+	text-transform: uppercase;
+	height: 58px;
+	width: 221px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.block5_cntr_top_button span{
+	background: url(../img/3-v_kylinarii/33.png) left no-repeat;
+	background-size: 64px 30px;
+	padding: 0 20px 0 90px;
+	margin: 0 0 0 13px;
+}
+.block5_cntr_button_middle{
+	font-family: Roboto;
+	font-size: 20px;
+	letter-spacing: -0.4px;
+	padding: 60px 0px 37px 0;
+}
+.block5_cntr_button_middle2{
+	font-family: Roboto;
+	font-size: 20px;
+	letter-spacing: -0.4px;
+	padding: 0px 0px 37px 0;
+}
+
+.block5_imageback{
+	height: 180px;
+	width: 1380px;
+	background: url(../img/3-v_kylinarii/2blockDop_2.png);
+}
+
+
+
+.footer_{
+	background: #CC9966;
+	max-width: 1380px;
+	margin: 0px auto;
+	height: 185px;
+}
+.footer_row{
+	max-width: 888px;
+	margin: 0px auto;
+}
+.footer_top{
+	height: 117px;
+}
+.footer_top_list{
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	color: #fff;
+	font-family: Roboto;
+	font-size: 14px;
+	letter-spacing: -0.28px;
+	padding: 52px 0;
+}
+
+.footer_image{
+	text-align: right;
+}
+.footer_top_image1{
+	margin: 0 14px 0 0;
+}
+.footer_top_image2{}
+.footer_middle{
+	height: 68px;
+	font-family: Roboto;
+	size: 14px;
+	letter-spacing: -0.28px;
+	color: #fff;
+}
+
+.button_fix{
+	border: 1px solid #000;
+	font-family: PT Sans;
+	font-size: 18px;
+	letter-spacing: -0.36px;
+	text-transform:uppercase;
+	width: 180px;
+	height: 58px;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	z-index: 10;
+	transform: rotate(-90deg);
+	right: -40px;
+	bottom: 100px;
+	position: fixed;
+	background: #fff;
+	border-radius: 5px;
+	
+	
+
+}
+
+.button_fix span{
+	background: url(../img/20/11SrelkaUp.png) right no-repeat;
+	background-size: 64px 30px;
+	padding: 0 95px 0 0;
+	margin: 0 0 0 11px;
+}

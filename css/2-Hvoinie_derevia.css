@@ -1,0 +1,191 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+a {
+    color: #242e31;
+    text-decoration: none;
+    font-weight: 600;
+   }
+
+body{
+	max-width: 1380px;
+	margin: 0px auto;
+	background: #fff;
+}
+
+.wrapper{
+	max-width: 888px;
+	margin: 0px auto;
+	background: #fff;
+	padding: 0px 0 50px 0;
+}
+
+.block2_{
+	max-width: 880px;
+	margin: 0px auto;
+	display: grid;
+	grid-template-columns: 100%;
+}
+.block2_top{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 40px 0 36px 0;
+}
+.block2_top_heading{
+	font-family: Roboto;
+	font-size: 40px;
+}
+.block2_line{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 19px 0 0 0;
+}
+.block2_line_1{
+	width: 167px;
+	height: 1px;
+	background: #000 no-repeat;
+
+}
+
+.block2_line_1 img{
+	float: right;
+	padding: 14px 0 35px 0;
+}
+
+.block2_middle{
+	display: grid;
+	grid-template-columns: 5px 1fr 1fr;
+	padding: 36px 0px 48px 0px;
+}
+
+.block2_middle_line{
+	background: #000;
+	height: 428px;
+	width: 1px;
+}
+
+.block2_middle_text{
+	font-family: PT Sans;
+	font-size: 16px;
+	width: 389px;
+	height: 428px;
+	margin: 0 0 0 25px;
+	letter-spacing: -0.32px;
+
+}
+
+.block2_middle_text p{
+	padding: 10px 0;
+}
+.block2_middle_image{
+	display: flex;
+	justify-content: flex-end;
+}
+.block2_img1{}
+.block2_middle_line1{
+	border: 1px solid #000;
+	height: 428px;
+	width: 414px;
+	transform: rotate(-17deg);
+	margin: 0 0 0 -414px;
+}
+.block2_middle_line2{
+	border: 1px solid #000;
+	height: 428px;
+	width: 414px;
+	transform: rotate(-7deg);
+	margin: 0 0 0 -414px;
+}
+
+.head_Y3_img1{
+	width: 20px;
+	height: auto;
+	padding: 0 16px 0 0;
+}
+.head_Y3_img2{
+	width: 20px;
+	height: auto;
+}
+
+.footer_top a{
+	color: #fff;
+	font-weight: 400;
+}
+
+.button_fix{
+	border: 1px solid #000;
+	font-family: PT Sans;
+	font-size: 18px;
+	letter-spacing: -0.36px;
+	text-transform:uppercase;
+	width: 180px;
+	height: 58px;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	z-index: 10;
+	transform: rotate(-90deg);
+	right: -40px;
+	bottom: 100px;
+	position: fixed;
+	background: #fff;
+	border-radius: 5px;
+	
+	
+
+}
+
+.button_fix span{
+	background: url(../img/20/11SrelkaUp.png) right no-repeat;
+	background-size: 64px 30px;
+	padding: 0 95px 0 0;
+	margin: 0 0 0 11px;
+}
+
+
+.footer_{
+	background: #CC9966;
+	max-width: 1380px;
+	margin: 0px auto;
+	height: 185px;
+}
+.footer_row{
+	max-width: 888px;
+	margin: 0px auto;
+}
+.footer_top{
+	padding: 0 0 0 50px;
+	height: 117px;
+}
+.footer_top_list{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.8fr;
+	list-style-type: none;
+	color: #fff;
+	font-family: Roboto;
+	font-size: 14px;
+	letter-spacing: -0.28px;
+	padding: 52px 0;
+}
+
+.footer_image{
+	text-align: right;
+}
+.footer_top_image1{
+	margin: 0 14px 0 0;
+}
+.footer_top_image2{}
+.footer_middle{
+	height: 68px;
+	font-family: Roboto;
+	size: 14px;
+	letter-spacing: -0.28px;
+	color: #fff;
+	padding: 0 0 0 50px;
+}
+
